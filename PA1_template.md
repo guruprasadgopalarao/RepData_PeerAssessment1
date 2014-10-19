@@ -148,7 +148,7 @@ avgStepDateIs = aggregate(steps ~ interval + dateIs, mean, data = dataNew)
 
 library(lattice)
 xyplot(steps ~ interval | dateIs, data = avgStepDateIs, type = "l", layout = c(1, 
-    2), xlab = "Interval", ylab = "Number of steps")
+    2), xlab = "Interval", ylab = "Number of steps" )
 ```
 
 ![plot of chunk part5](figure/part5.png) 

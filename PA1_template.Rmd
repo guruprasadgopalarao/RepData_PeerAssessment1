@@ -56,7 +56,7 @@ maxAvgStep = avgStep[maxIdx, 'steps']
 
 ## Inputing missing values
 ``` {r part4_0}
-# Calulate the total number of missing values in the dataset
+# Calculate the total number of missing values in the dataset
 totalNA = sum(is.na(data$steps))
 
 ```

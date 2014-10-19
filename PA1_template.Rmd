@@ -4,7 +4,7 @@
 
 ```{r setoptions, echo=TRUE}
 
-# File "activity.csv" needs to be placed in the same directory a  this Rmarkdown file  
+# File "activity.csv" needs to be placed in the same directory as this Rmarkdown file  
 data = read.csv("activity.csv", header=TRUE, sep=",", na.strings="NA")
 
 # Transform date to correct Date format
